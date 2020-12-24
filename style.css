@@ -1,0 +1,42 @@
+html,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d1dbdc;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #528abb;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family: "Permanent Marker", cursive;
+    box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid whitesmoke;
+    height: 100px;
+    width: 100px;
+}
+button {
+    margin-right: 30px;
+    padding: 0.5rem 1rem;
+    background-color: #528abb;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+}
